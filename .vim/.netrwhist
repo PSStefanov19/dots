@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =3
+let g:netrw_dirhist_3='/home/p/Programming/C++/first'
+let g:netrw_dirhist_2='/home/p/Programming/Rust/first'
+let g:netrw_dirhist_1='/home/p/Programming/Rust/first/src'
+let g:netrw_dirhist_0='/home/p/Programming/Rust/first'
+let g:netrw_dirhist_9='/home/p/Programming/Rust/first/src'
+let g:netrw_dirhist_8='/home/p/Programming/Rust/first'
+let g:netrw_dirhist_7='/home/p/Programming/C++/first'
+let g:netrw_dirhist_6='/home/p'
+let g:netrw_dirhist_5='/etc/X11/xorg.conf.d'
+let g:netrw_dirhist_4='/home/p/Pictures'
