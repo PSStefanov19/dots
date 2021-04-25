@@ -2,9 +2,9 @@
 
 pgrep -x sxhkd > /dev/null || sxhkd & 
 
-bspc monitor -d I II III IV V VI VII VIII IX X
+bspc monitor -d 1 2 3 4 5 6 7 8 9 10
 
-bspc config border_width         2
+bspc config border_width         0
 bspc config window_gap          12
 
 bspc config split_ratio          0.52
@@ -17,7 +17,7 @@ bspc rule -a mplayer2 state=floating
 bspc rule -a Kupfer.py focus=on
 bspc rule -a Screenkey manage=off
 
-bash ~/.config/polybar/launch.sh --colorblocks &
+bash ~/.config/polybar/launch.sh --cuts &
 nitrogen --restore &
 picom --config .config/picom/picom.conf &
 setxkbmap workman
