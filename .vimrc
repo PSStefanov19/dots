@@ -39,7 +39,7 @@ set pumheight=5
 set pumwidth=10
 set t_Co=256
 set signcolumn=yes
-set guifont=Hack
+set guifont=Fira\ Code
 set termguicolors
 set cursorline
 set lazyredraw
@@ -49,8 +49,6 @@ set completeopt-=preview
 let g:tokyonight_style = 'night'
 let g:tokyonight_enable_italic = 1
 colorscheme tokyonight
-
-highlight ColorColumn ctermbg=0 guibg=lightgray
 
 "Autostart NERDtree
 autocmd VimEnter * NERDTree | wincmd p

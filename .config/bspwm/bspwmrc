@@ -17,7 +17,7 @@ bspc rule -a mplayer2 state=floating
 bspc rule -a Kupfer.py focus=on
 bspc rule -a Screenkey manage=off
 
-bash ~/.config/polybar/launch.sh --cuts &
+bash ~/.config/polybar/cuts/launch.sh
 nitrogen --restore &
 picom --config .config/picom/picom.conf &
 setxkbmap workman
