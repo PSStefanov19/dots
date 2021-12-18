@@ -20,4 +20,3 @@ bspc rule -a Screenkey manage=off
 bash ~/.config/polybar/cuts/launch.sh
 nitrogen --restore &
 picom --config .config/picom/picom.conf &
-setxkbmap workman
